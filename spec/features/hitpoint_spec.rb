@@ -4,7 +4,7 @@ feature 'Hitpoints' do
   # end
   scenario 'Tells you your hitpoints' do
     sign_in_and_play
-    expect(page).to have_content('Hugh: 69/69 HP')
+    expect(page).to have_content('Jack: 69/69 HP')
     expect(page).to have_content('Charlie: 69/69 HP')
   end
 end
