@@ -1,7 +1,7 @@
 
 <div id="player_1_space">
   <h1> Player 1: <%= @player_1 %> </h1>
-  <h2> <%= @player_1 %>: 69/69 HP </h2>
+  <h2> <%= @player_1 %>: <%= @player_1.health%>/69 HP </h2>
   <form action='/attack' method="get">
     <input type="submit" value="ATTACK">
   </form>
@@ -9,5 +9,5 @@
 
 <div id="player_2_space">
   <h1> Player 2: <%= @player_2 %> </h1>
-  <h2> <%= @player_2 %>: 69/69 HP </h2>
+  <h2> <%= @player_2 %>: <%= @player_2.health %>/69 HP </h2>
 </div>
